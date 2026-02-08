@@ -67,6 +67,19 @@ $$
 
 ---
 
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MaykonAdriell/MaykonAdriell/output/github-snake-dark.svg?palette=github-dark&color_snake=#00d4ff&color_dots=#161b22,#0d1117,#003820,#00602d,#26a641" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MaykonAdriell/MaykonAdriell/output/github-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/MaykonAdriell/MaykonAdriell/output/github-snake.svg" />
+</picture>
+
+</div>
+
+---
+
 <div align="center">
 
 <sub>
