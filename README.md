@@ -40,8 +40,8 @@ $$
 
 $$
 \begin{cases} 
-\text{Invariantes} \gg \text{Opinião} \\
-\text{Limites} \supset \text{Promessas} \\
+\text{Invariants} \gg \text{Opinion} \\
+\text{Limits} \supset \text{Promises} \\
 \displaystyle\lim_{t \to \infty} K(\text{code}) \to \emptyset
 \end{cases}
 $$
