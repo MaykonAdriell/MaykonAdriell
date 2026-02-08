@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root {
+    --green-color: #00ff00;
+    --dark-green: #003300;
+    --bg-color: #0d1117;
+    --glow-text: 0 0 5px var(--green-color);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: var(--green-color);
+    font-family: 'VT323', monospace;
+    font-size: 1.2rem;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.crt::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+}
+
+.terminal {
+    padding: 2rem;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    text-shadow: var(--glow-text);
+}
+
+.input-line {
+    display: flex;
+    align-items: center;
+}
+
+.prompt {
+    margin-right: 10px;
+    color: var(--green-color);
+}
+
+input {
+    background: transparent;
+    border: none;
+    color: var(--green-color);
+    font-family: 'VT323', monospace;
+    font-size: 1.2rem;
+    outline: none;
+    flex-grow: 1;
+    text-shadow: var(--glow-text);
+}
+
+.command-output {
+    margin-bottom: 0.5rem;
+    white-space: pre-wrap;
+    line-height: 1.4;
+}
+
+.sys-msg {
+    color: #4af626;
+    font-weight: bold;
+}
+
+.error {
+    color: #ff3333;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px dashed #fff;
+}
