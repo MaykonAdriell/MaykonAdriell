@@ -19,8 +19,11 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/Sao_Paulo
+          config_display: large
+          config_padding: 0, 5%
           filename: assets/github-metrics.svg
           base_indepth: yes
+          plugin_lines: yes
           plugin_languages: yes
           plugin_languages_colors: github
           plugin_languages_limit: 8
