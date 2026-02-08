@@ -41,7 +41,7 @@ graph LR
         H --> K((○))
     end
     
-    subgraph ∞ [" "]
+    subgraph Omega [" "]
         I --> L((○))
         I --> M((○))
         J --> M
