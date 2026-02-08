@@ -18,46 +18,9 @@
 
 <br />
 
-```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1a1a2e', 'primaryTextColor': '#c9d1d9', 'primaryBorderColor': '#30363d', 'lineColor': '#484f58', 'secondaryColor': '#161b22', 'tertiaryColor': '#0d1117', 'background': '#0d1117', 'mainBkg': '#0d1117', 'nodeBorder': '#30363d', 'clusterBkg': '#161b22', 'clusterBorder': '#30363d'}}}%%
-flowchart LR
-    subgraph Input[" "]
-        I1((x₁))
-        I2((x₂))
-        I3((x₃))
-    end
-    
-    subgraph Hidden1[" "]
-        H1((h₁))
-        H2((h₂))
-        H3((h₃))
-        H4((h₄))
-    end
-    
-    subgraph Hidden2[" "]
-        H5((h₅))
-        H6((h₆))
-        H7((h₇))
-    end
-    
-    subgraph Output[" "]
-        O1((ŷ₁))
-        O2((ŷ₂))
-    end
-    
-    I1 --> H1 & H2 & H3 & H4
-    I2 --> H1 & H2 & H3 & H4
-    I3 --> H1 & H2 & H3 & H4
-    
-    H1 --> H5 & H6 & H7
-    H2 --> H5 & H6 & H7
-    H3 --> H5 & H6 & H7
-    H4 --> H5 & H6 & H7
-    
-    H5 --> O1 & O2
-    H6 --> O1 & O2
-    H7 --> O1 & O2
-```
+<div align="center">
+  <img src="./assets/neural-network.svg" alt="Neural Network Animation" width="100%" />
+</div>
 
 <br />
 
