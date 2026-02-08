@@ -50,39 +50,58 @@ $$
 
 <div align="center">
 
-  ### Languages
-  <a href="https://www.python.org/doc/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /></a>
-  <a href="https://www.typescriptlang.org/docs/"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /></a>
-  <a href="https://iso cpp.org/"><img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" /></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /></a>
+<div align="center">
 
-  <br />
+  <table>
+    <tr>
+      <td align="center" width="960px">
+        <span><b>Cloud, Infra & CI/CD</b></span>
+        <br/><br/>
+        <a href="https://cloud.google.com/docs"><img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="GCP" /></a>
+        <a href="https://docs.docker.com/"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" /></a>
+        <a href="https://docs.github.com/en/actions"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" /></a>
+        <a href="https://www.postgresql.org/docs/"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="960px">
+        <span><b>AI & Data Science</b></span>
+        <br/><br/>
+        <a href="https://jax.readthedocs.io/"><img src="https://img.shields.io/badge/JAX-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="JAX" /></a>
+        <a href="https://pytorch.org/docs/"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" /></a>
+        <a href="https://www.tensorflow.org/api_docs"><img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" /></a>
+        <a href="https://huggingface.co/docs"><img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="960px">
+        <span><b>Languages</b></span>
+        <br/><br/>
+        <a href="https://www.python.org/doc/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /></a>
+        <a href="https://www.typescriptlang.org/docs/"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /></a>
+        <a href="https://iso cpp.org/"><img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" /></a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="960px">
+        <span><b>Platforms & Environments</b></span>
+        <br/><br/>
+        <a href="https://www.kaggle.com/"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
+        <a href="https://colab.research.google.com/"><img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Colab" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="960px">
+        <span><b>Tools & Creativity</b></span>
+        <br/><br/>
+        <a href="https://notebooklm.google.com/"><img src="https://img.shields.io/badge/NotebookLM-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" alt="NotebookLM" /></a>
+        <a href="https://www.canva.com/"><img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva" /></a>
+      </td>
+    </tr>
+  </table>
 
-  ### AI & Data Science
-  <a href="https://jax.readthedocs.io/"><img src="https://img.shields.io/badge/JAX-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="JAX" /></a>
-  <a href="https://pytorch.org/docs/"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" /></a>
-  <a href="https://www.tensorflow.org/api_docs"><img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" /></a>
-  <a href="https://huggingface.co/docs"><img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" /></a>
-
-  <br />
-
-  ### Platforms & Environments
-  <a href="https://www.kaggle.com/"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
-  <a href="https://colab.research.google.com/"><img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Colab" /></a>
-
-  <br />
-
-  ### Cloud, Infra & CI/CD
-  <a href="https://cloud.google.com/docs"><img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="GCP" /></a>
-  <a href="https://docs.docker.com/"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" /></a>
-  <a href="https://docs.github.com/en/actions"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" /></a>
-  <a href="https://www.postgresql.org/docs/"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" /></a>
-
-  <br />
-
-  ### Tools & Creativity
-  <a href="https://notebooklm.google.com/"><img src="https://img.shields.io/badge/NotebookLM-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" alt="NotebookLM" /></a>
-  <a href="https://www.canva.com/"><img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva" /></a>
+</div>
 
 </div>
 
