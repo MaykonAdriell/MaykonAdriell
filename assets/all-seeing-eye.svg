@@ -1,0 +1,49 @@
+<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cyber-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#003300;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g transform="translate(100, 60)" filter="url(#glow)">
+    <!-- Pyramid Base -->
+    <path d="M-60,40 L60,40 L0,-50 Z" fill="none" stroke="#00ff00" stroke-width="2" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="3s" repeatCount="indefinite" />
+    </path>
+    
+    <!-- Inner Pyramid Lines -->
+    <path d="M-40,40 L0,-20 L40,40" fill="none" stroke="#003300" stroke-width="1" />
+    <line x1="0" y1="40" x2="0" y2="-20" stroke="#003300" stroke-width="1" />
+    
+    <!-- The Eye -->
+    <g transform="translate(0, -5)">
+      <ellipse cx="0" cy="0" rx="15" ry="9" fill="none" stroke="#00ff00" stroke-width="1.5">
+          <animate attributeName="ry" values="9;1;9" dur="4s" repeatCount="indefinite" />
+      </ellipse>
+      <circle cx="0" cy="0" r="4" fill="#00ff00">
+          <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <!-- Ray Beams -->
+    <g stroke="#00ff00" stroke-width="0.5" opacity="0.3">
+      <line x1="0" y1="-50" x2="-20" y2="-80">
+        <animate attributeName="x2" values="-20;-25;-20" dur="2s" repeatCount="indefinite" />
+      </line>
+      <line x1="0" y1="-50" x2="0" y2="-85">
+         <animate attributeName="y2" values="-85;-90;-85" dur="3s" repeatCount="indefinite" />
+      </line>
+      <line x1="0" y1="-50" x2="20" y2="-80">
+        <animate attributeName="x2" values="20;25;20" dur="2s" repeatCount="indefinite" />
+      </line>
+    </g>
+  </g>
+</svg>

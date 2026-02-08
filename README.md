@@ -101,6 +101,10 @@ $$
     </tr>
   </table>
 
+  <br />
+
+  <img src="./assets/all-seeing-eye.svg" alt="The All Seeing Eye" width="100" />
+
 </div>
 
 </div>
