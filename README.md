@@ -36,8 +36,6 @@ $$
 
 <br />
 
----
-
 $$
 \begin{cases} 
 \text{Invariants} \gg \text{Opinion} \\
@@ -45,6 +43,8 @@ $$
 \displaystyle\lim_{t \to \infty} K(\text{code}) \to \emptyset
 \end{cases}
 $$
+
+---
 
 <br />
 
