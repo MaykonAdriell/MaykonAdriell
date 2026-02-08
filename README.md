@@ -52,9 +52,10 @@ $$
 
 <div align="center">
 
-  <table>
+  <!-- 1. Cloud, Infra & CI/CD (Base) - 100% -->
+  <table border="0" width="100%">
     <tr>
-      <td align="center" width="960px">
+      <td align="center">
         <span><b>Cloud, Infra & CI/CD</b></span>
         <br/><br/>
         <a href="https://cloud.google.com/docs"><img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="GCP" /></a>
@@ -63,8 +64,12 @@ $$
         <a href="https://www.postgresql.org/docs/"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" /></a>
       </td>
     </tr>
+  </table>
+
+  <!-- 2. AI & Data Science - 85% -->
+  <table border="0" width="85%">
     <tr>
-      <td align="center" width="960px">
+      <td align="center">
         <span><b>AI & Data Science</b></span>
         <br/><br/>
         <a href="https://jax.readthedocs.io/"><img src="https://img.shields.io/badge/JAX-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="JAX" /></a>
@@ -73,8 +78,12 @@ $$
         <a href="https://huggingface.co/docs"><img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" /></a>
       </td>
     </tr>
+  </table>
+
+  <!-- 3. Languages - 70% -->
+  <table border="0" width="70%">
     <tr>
-      <td align="center" width="960px">
+      <td align="center">
         <span><b>Languages</b></span>
         <br/><br/>
         <a href="https://www.python.org/doc/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /></a>
@@ -83,16 +92,24 @@ $$
         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /></a>
       </td>
     </tr>
+  </table>
+
+  <!-- 4. Platforms & Environments - 55% -->
+  <table border="0" width="55%">
     <tr>
-      <td align="center" width="960px">
+      <td align="center">
         <span><b>Platforms & Environments</b></span>
         <br/><br/>
         <a href="https://www.kaggle.com/"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
         <a href="https://colab.research.google.com/"><img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Colab" /></a>
       </td>
     </tr>
+  </table>
+
+  <!-- 5. Tools & Creativity (Tip) - 40% -->
+  <table border="0" width="40%">
     <tr>
-      <td align="center" width="960px">
+      <td align="center">
         <span><b>Tools & Creativity</b></span>
         <br/><br/>
         <a href="https://notebooklm.google.com/"><img src="https://img.shields.io/badge/NotebookLM-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" alt="NotebookLM" /></a>
