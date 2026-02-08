@@ -30,9 +30,9 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_activity: yes
-          plugin_activity_limit: 3
-          plugin_activity_load: 100
-          plugin_activity_filter: all
-          plugin_activity_visibility: all
-          plugin_activity_timestamps: yes
+          # plugin_activity: yes
+          # plugin_activity_limit: 3
+          # plugin_activity_load: 100
+          # plugin_activity_filter: all
+          # plugin_activity_visibility: all
+          # plugin_activity_timestamps: yes
