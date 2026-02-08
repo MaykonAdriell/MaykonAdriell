@@ -59,9 +59,7 @@ $$
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MaykonAdriell&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=c9d1d9&icon_color=58a6ff&text_color=8b949e)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MaykonAdriell&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e)
+<img src="./assets/github-metrics.svg" alt="Metrics" />
 
 </div>
 
