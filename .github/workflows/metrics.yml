@@ -30,6 +30,9 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+          plugin_followup: yes
+          plugin_followup_indepth: yes
+          plugin_followup_sections: repositories
           # plugin_activity: yes
           # plugin_activity_limit: 3
           # plugin_activity_load: 100
