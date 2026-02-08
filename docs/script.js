@@ -97,6 +97,10 @@ AVAILABLE COMMANDS:
   matrix    : [CLASSIFIED]
 `)
     },
+    ask: {
+        desc: 'Alias for help',
+        action: () => commands.help.action()
+    },
     projects: {
         desc: 'List tactical systems',
         action: () => printOutput(`
@@ -188,7 +192,7 @@ Connecting to Neural Net... [OK]
 
 "Wake up, Neo..."
 
-Type 'help' for available commands.
+> "Help will always be given to those who ask for it."
 `, 'sys-msg');
 }
 
