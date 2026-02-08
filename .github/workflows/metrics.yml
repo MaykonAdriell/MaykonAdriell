@@ -35,15 +35,16 @@ jobs:
           # plugin_followup_sections: repositories
           
           # Habits & Activity
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
+          # Habits & Activity
+          # plugin_habits: yes
+          # plugin_habits_from: 200
+          # plugin_habits_days: 14
+          # plugin_habits_facts: yes
+          # plugin_habits_charts: yes
           
-          plugin_activity: yes
-          plugin_activity_limit: 3
-          plugin_activity_load: 100
-          plugin_activity_filter: all
-          plugin_activity_visibility: all
-          plugin_activity_timestamps: yes
+          # plugin_activity: yes
+          # plugin_activity_limit: 3
+          # plugin_activity_load: 100
+          # plugin_activity_filter: all
+          # plugin_activity_visibility: all
+          # plugin_activity_timestamps: yes
