@@ -20,8 +20,41 @@
     <path d="M-40,-40 L0,20 L40,-40" fill="none" stroke="#003300" stroke-width="1" />
     <line x1="0" y1="-40" x2="0" y2="20" stroke="#003300" stroke-width="1" />
     
+    <!-- EYE GROUP: Moves down and scales up periodically -->
+    <g>
+       <!-- Animation: Move down (translate Y) and Scale Up (zoom) -->
+       <animateTransform attributeName="transform"
+                          type="translate"
+                          values="0,0; 0,10; 0,0; 0,0"
+                          keyTimes="0; 0.2; 0.3; 1"
+                          dur="6s"
+                          repeatCount="indefinite" />
+       <!-- Scale animation separately to avoid center shift issues, or combined if supported.
+            Let's use a nested scale on the pupil or the whole eye relative to center.
+            Actually, the user wants the EYE to look down and maybe zoom. 
+            Let's animate the group to scale slightly. -->
+    </g>
+
     <!-- The Eye (Positioned near center of mass) -->
     <g transform="translate(0, -15)">
+      <!-- Whole Eye scaling effect -->
+       <animateTransform attributeName="transform"
+                          type="scale"
+                          values="1; 1.2; 1; 1"
+                          keyTimes="0; 0.2; 0.3; 1"
+                          dur="6s"
+                          repeatCount="indefinite"
+                          additive="sum" 
+        />
+        <animateTransform attributeName="transform"
+                          type="translate"
+                          values="0,0; 0,10; 0,0; 0,0"
+                          keyTimes="0; 0.2; 0.3; 1"
+                          dur="6s"
+                          repeatCount="indefinite"
+                          additive="sum"
+        />
+
       <!-- Eye Sclera -->
       <ellipse cx="0" cy="0" rx="15" ry="9" fill="none" stroke="#00ff00" stroke-width="1.5">
           <animate attributeName="ry" values="9;2;9" dur="5s" repeatCount="indefinite" />
@@ -33,10 +66,10 @@
           <animate attributeName="r" values="4;5;4" dur="3s" repeatCount="indefinite" />
         </circle>
         
-        <!-- Pupil "Look Down" Animation -->
+        <!-- Pupil "Look Down" Animation (Additional to Eye movement) -->
         <animateTransform attributeName="transform"
                           type="translate"
-                          values="0,0; 0,10; 0,0; 0,0"
+                          values="0,0; 0,15; 0,0; 0,0"
                           keyTimes="0; 0.2; 0.3; 1"
                           dur="6s"
                           repeatCount="indefinite" />
