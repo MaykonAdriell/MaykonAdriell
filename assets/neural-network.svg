@@ -1,11 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
   <defs>
     <style>
-      .bg { fill: #0d1117; }
-      .node { fill: #c9d1d9; stroke: #58a6ff; stroke-width: 1.5; }
-      .node-active { fill: #58a6ff; }
-      .conn-pos { stroke: #00d4ff; stroke-width: 1; opacity: 0.6; }
-      .conn-neg { stroke: #ff6b6b; stroke-width: 1; opacity: 0.6; }
+      /* Default (Light Mode) */
+      .node { fill: #ffffff; stroke: #0969da; stroke-width: 1.5; }
+      .node-active { fill: #0969da; }
+      .conn-pos { stroke: #0969da; stroke-width: 1; opacity: 0.6; }
+      .conn-neg { stroke: #cf222e; stroke-width: 1; opacity: 0.6; }
+
+      /* Dark Mode Overrides */
+      @media (prefers-color-scheme: dark) {
+        .node { fill: #c9d1d9; stroke: #58a6ff; }
+        .node-active { fill: #58a6ff; }
+        .conn-pos { stroke: #00d4ff; }
+        .conn-neg { stroke: #ff6b6b; }
+      }
       
       /* Pulse animation for connections */
       .pulse-1 { animation: pulse 3s ease-in-out infinite; animation-delay: 0s; }
@@ -26,14 +34,11 @@
       .glow-5 { animation: glow 3s ease-in-out infinite; animation-delay: 2.2s; }
       
       @keyframes glow {
-        0%, 100% { fill: #c9d1d9; filter: none; }
-        50% { fill: #58a6ff; filter: drop-shadow(0 0 6px #58a6ff); }
+        0%, 100% { filter: none; }
+        50% { filter: drop-shadow(0 0 6px currentColor); }
       }
     </style>
   </defs>
-  
-  <!-- Background -->
-  <rect class="bg" width="800" height="400"/>
   
   <!-- Layer 1 - Input (3 nodes) -->
   <!-- Connections L1 to L2 -->
