@@ -1,3 +1,5 @@
+EM CONSTRUÇÃO 🚧🚧🚧🏗️!!!
+
 <div align="center">
   
 <img src="./assets/lorenz-attractor.svg" alt="Lorenz Attractor System" width="100%" />
