@@ -1,6 +1,6 @@
 <div align="center">
   
-<img src="./assets/monogram-m.png" alt="M" width="120" />
+<img src="./assets/lorenz-attractor.svg" alt="Lorenz Attractor System" width="100%" />
 
 <br /><br />
 
@@ -149,5 +149,7 @@ $$
 <br />
 
 <div align="center">
+  <img src="./assets/monogram-m.png" alt="M" width="40" />
+  <br />
   <a href="https://maykonadriell.github.io/MaykonAdriell/" style="text-decoration:none; color:#181818;">01110100 01101111 01100011 01100001 00100000 01100100 01101111 00100000 01100011 01101111 01100101 01101100 01101000 01101111</a>
 </div>
