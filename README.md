@@ -4,11 +4,15 @@
 **Systems Architect · Machine Learning Engineer · Creative Coder**
 
 I build **AI-powered products** and **backend systems** focused on real value and stable production:
-- **Observability** (metrics, logs, traces)
-- **Reproducibility** (pipelines, experiments, evaluations)
-- **Automation** (CI/CD, infrastructure as code)
+<br />
+• **Observability** (metrics, logs, traces)
+<br />
+• **Reproducibility** (pipelines, experiments, evaluations)
+<br />
+• **Automation** (CI/CD, infrastructure as code)
+<br />
 
-I have worked as a full-stack developer, project leader, and researcher.
+My background spans full-cycle developer, technical leadership, and applied research.
 
 > *This profile reflects my triple passion: AI, generative art/experimental code, and complex systems science. The visuals below are an algorithmic expression of this philosophy.*
 
