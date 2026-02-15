@@ -30,9 +30,22 @@ My background spans full-cycle developer, technical leadership, and applied rese
 
 <br />
 
+<table border="0">
+<tr>
+<td width="70%" valign="center">
+
 > *"Curiouser and curiouser..."*  
 > *"It's no use going back to yesterday — I was a different person then."*  
 > *"I give myself very good advice, but I very seldom follow it."*
+
+</td>
+<td width="30%" align="center">
+
+<img src="./assets/alice-blue-mist.webp" alt="Alice Blue Mist" width="100%" />
+
+</td>
+</tr>
+</table>
 
 <br />
 
