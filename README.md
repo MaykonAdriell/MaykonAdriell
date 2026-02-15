@@ -1,7 +1,19 @@
-EM CONSTRUÇÃO 🚧🚧🚧🏗️!!!
-
 <div align="center">
-  
+
+### Hello, my name is Maykon Adriell.
+**Systems Architect · Machine Learning Engineer · Creative Coder**
+
+I build **AI-powered products** and **backend systems** focused on real value and stable production:
+- **Observability** (metrics, logs, traces)
+- **Reproducibility** (pipelines, experiments, evaluations)
+- **Automation** (CI/CD, infrastructure as code)
+
+I have worked as a full-stack developer, project leader, and researcher.
+
+> *This profile reflects my triple passion: AI, generative art/experimental code, and complex systems science. The visuals below are an algorithmic expression of this philosophy.*
+
+<br />
+
 <img src="./assets/lorenz-attractor.svg" alt="Lorenz Attractor System" width="100%" />
 
 <br /><br />
