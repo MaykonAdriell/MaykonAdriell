@@ -7,7 +7,7 @@ I build **AI-powered products** and **backend systems** focused on real value an
 <br />
 • **Observability** (metrics, logs, traces)
 <br />
-• **Reproducibility** (pipelines, experiments, evaluations)
+• **Reproducibility** (pipelines, experiments, evals)
 <br />
 • **Automation** (CI/CD, infrastructure as code)
 <br />
@@ -75,6 +75,7 @@ $$
     <span><b>Cloud, Infra & CI/CD</b></span>
     <br/><br/>
     <a href="https://cloud.google.com/docs"><img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="GCP" /></a>
+    <a href="https://developer.hashicorp.com/terraform/docs"><img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" /></a>
     <a href="https://docs.docker.com/"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" /></a>
     <a href="https://docs.github.com/en/actions"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" /></a>
     <a href="https://www.postgresql.org/docs/"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" /></a>
