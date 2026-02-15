@@ -1,8 +1,4 @@
 <div align="center">
-  <img src="./assets/header-border.png" alt="Neo-Baroque Header" width="100%" />
-</div>
-
-<div align="center">
 
 ### Hello, my name is Maykon Adriell.
 **Systems Architect · Machine Learning Engineer · Creative Coder**
@@ -11,7 +7,7 @@ I build **AI-powered products** and **backend systems** focused on real value an
 <br />
 • **Observability** (metrics, logs, traces)
 <br />
-• **Reproducibility** (pipelines, experiments, evaluations)
+• **Reproducibility** (pipelines, experiments, evals)
 <br />
 • **Automation** (CI/CD, infrastructure as code)
 <br />
@@ -182,14 +178,12 @@ $$
 
 </div>
 
+</div>
+
 <br />
 
 <div align="center">
   <img src="./assets/monogram-m.png" alt="M" width="40" />
   <br />
   <a href="https://maykonadriell.github.io/MaykonAdriell/" style="text-decoration:none; color:#181818;">01110100 01101111 01100011 01100001 00100000 01100100 01101111 00100000 01100011 01101111 01100101 01101100 01101000 01101111</a>
-</div>
-
-<div align="center">
-  <img src="./assets/footer-border.png" alt="Neo-Baroque Footer" width="100%" />
 </div>
