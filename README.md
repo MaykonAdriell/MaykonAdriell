@@ -7,7 +7,7 @@ I build **AI-powered products** and **backend systems** focused on real value an
 <br />
 • **Observability** (metrics, logs, traces)
 <br />
-• **Reproducibility** (pipelines, experiments, evaluations)
+• **Reproducibility** (pipelines, experiments, evals)
 <br />
 • **Automation** (CI/CD, infrastructure as code)
 <br />
