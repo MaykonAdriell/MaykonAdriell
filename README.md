@@ -3,15 +3,6 @@
 ### Hello, my name is Maykon Adriell.
 **Systems Architect · Machine Learning Engineer · Creative Coder**
 
-I build **AI-powered products** and **backend systems** focused on real value and stable production:
-<br />
-• **Observability** (metrics, logs, traces)
-<br />
-• **Reproducibility** (pipelines, experiments, evals)
-<br />
-• **Automation** (CI/CD, infrastructure as code)
-<br />
-
 My background spans full-cycle developer, technical leadership, and applied research.
 
 > *This profile reflects my triple passion: AI, generative art/experimental code, and complex systems science. The visuals below are an algorithmic expression of this philosophy.*
